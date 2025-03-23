@@ -1,7 +1,7 @@
 nomes = []
 
 while True: 
-    print('\n1. Adcicionar nome')
+    print('\n1. Adicionar nome')
     print('2. Buscar nome')
     print('3. Listar nome')
     print('4. Exluir nome da lista')
