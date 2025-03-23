@@ -4,7 +4,7 @@ while True:
     print('\n1. Adicionar nome')
     print('2. Buscar nome')
     print('3. Listar nome')
-    print('4. Exluir nome da lista')
+    print('4. Excluir nome da lista')
     print('5. Sair')
 
     opcao = input('\nEscolha uma opção: ')
@@ -25,7 +25,7 @@ while True:
     elif opcao == '3':
         buscar = input('\nDigite seu nome: ')
         if buscar in nomes:
-            print(f'\n{nome} seu nome esta na lista')
+            print(f'\n{buscar} seu nome esta na lista')
         else:
             print('\nvoce nao foi convido')
 
@@ -34,7 +34,7 @@ while True:
             exclui = input('\nDigite o nome da pessoa: ')
             if exclui in nomes:
                 nomes.remove(exclui)
-                print(f'\nVoce exclui {exclui} da lista')
+                print(f'\nVocê excluiu {exclui} da lista)
             else:
                 print('\nesse nome nao esta na lista')
         else:
